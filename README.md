@@ -1,4 +1,4 @@
-# Personal Portfolio (shaiknagurshareef.github.io)
+# Personal Portfolio (Asish.github.io)
 
 Welcome to my personal portfolio repository. This project showcases my skills, projects, and professional information in a simple, yet elegant format using HTML, CSS, and JavaScript.
 
@@ -31,12 +31,12 @@ To view and edit the portfolio on your local machine, follow these steps:
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/shaiknagurshareef/shaiknagurshareef.github.io.git
+    git clone https://github.com/Asishkarthikeya/Asish.github.io.git
     ```
 
 2. **Navigate to the project directory**:
     ```sh
-    cd shaiknagurshareef.github.io
+    cd Asish.github.io
     ```
 
 3. **Open the `index.html` file in your preferred web browser**:
