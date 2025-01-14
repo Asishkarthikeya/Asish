@@ -1,0 +1,26 @@
+[
+    {
+        "url": "https://www.editorialmanager.com/aiim/default2.aspx",
+        "title": "Enhancing Colon Cancer Diagnosis Through Transfer Learning on Histopathology Image Analysis",
+        "medium": "Artificial Intelligence In Medicine",
+        "authors": "<strong>Gogineni, Asish Karthikeya</strong>; Suda, Kiran Sai Reddy; Thadi, Venkata Satyamurti; Kakarala, Harika; Enduri Murali Krishna; Baha, Ihnaini;Sangi, Abdur Rashid",
+        "year": "2025",
+        "new": ""
+    },
+    {
+        "url": "https://www.jair.org/index.php/jair/index",
+        "title": "Focusing on the integration of reinforcement learning (RL) with other AI technologies in healthcare",
+        "authors": "Lovely, Yeswanth; <strong>Gogineni, Asish Karthikeya</strong>",
+        "medium": "Proceedings of the 22nd IEEE International Symposium on Biomedical Imaging (ISBI)",
+        "yeara": "2025",
+        "new": "<span class='new-badge'><img src='img/new.png' alt='badge-icon' class='badge-icon' /></span>"
+    },
+    {
+        "url": "https://www.oits-icit.org/",
+        "title": "Comparative Study of Melanoma Disease Classification using Deep Learning",
+        "medium": "22nd OITS International Conference on Information Technology (OCIT 2024)",
+        "authors": "<strong>Gogineni, Asish Karthikeya</strong>; Lovley, Yeswanth",
+        "year": "2025",
+        "new": "<span class='new-badge'><img src='img/new.png' alt='badge-icon' class='badge-icon' /></span>"
+    }
+]

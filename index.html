@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55120145-4"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-55120145-4');
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Personal Portfolio of Asish Karthikeya Gogineni" />
+        <meta name="author" content="Asish Karthikeya Gogineni" />
+        <title>Asish Karthikeya Gogineni - Portfolio</title>
+
+        <link rel="icon" type="image/x-icon" href="img/asish_favicon.ico" />
+        <!-- include Point.js -->
+        <script src="https://cdn.jsdelivr.net/gh/ranaroussi/pointjs/dist/point.js"></script>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Flag Icons: https://github.com/lipis/flag-icons -->
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css"
+        />
+        <!-- Academicons: https://jpswalsh.github.io/academicons/ -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles_updated (1).css" rel="stylesheet" />
+        <!-- Devicons -->
+        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+        
+      <style type="text/css">
+        .sidebar li .submenu{ 
+          list-style: none; 
+          margin: 0; 
+          padding: 0; 
+          padding-left: 1rem; 
+          padding-right: 1rem;
+        }
+        .sidebar .nav-link {
+            font-weight: 500;
+            color: var(--bs-dark);
+        }
+        .sidebar .nav-link:hover {
+            color: var(--bs-primary);
+        }
+      </style>
+    </head>
+
+    <body id="page-top">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <span class="d-block d-lg-none">Asish Karthikeya Gogineni</span>
+          <span class="d-none d-lg-block">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/asish.png" alt="Profile" />
+          </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="nav navbar-nav" id="nav_accordion">
+		<li class="nav-item">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" data-bs-toggle="collapse" data-bs-target="#menu_item1"  href="#research" onclick="location.href='#research';">Research<span class="caret"></span></a>
+          <ul id="menu_item1" class="submenu collapse" data-bs-parent="#nav_accordion">
+            <li><a class="nav-link js-scroll-trigger" data-bs-toggle="collapse" data-bs-target="#menu_item2" href="#publications" onclick="location.href='#publications';">Publications</a></li>
+              <ul id="menu_item2" class="submenu collapse" data-bs-parent="#nav_accordion">
+                <li><a class="nav-link js-scroll-trigger" href="#conferences">Conferences</a></li>
+                <li><a class="nav-link js-scroll-trigger" href="#journals">Journals</a></li>
+                <li><a class="nav-link js-scroll-trigger" href="#under-review">Under Review</a></li>
+              </ul>
+            <li><a class="nav-link js-scroll-trigger" href="data/Asish_Gogineni_Resume.pdf" target="_blank">Resume</a></li>
+            <!-- <li><a class="nav-link js-scroll-trigger" href="#reviewer">Reviewer</a></li> -->
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#certifications">Certifications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Content-->
+    <div class="container-fluid p-0">
+    <!-- About-->
+    <section class="resume-section" id="about">
+        <div class="resume-section-content">
+          <h1 class="mb-0">
+            Asish Karthikeya
+            <span class="text-primary">Gogineni</span>
+        </h1>
+          <div class="subheading mb-5">
+            509 Lindbergh Pl NE, Lindbergh, GA 30324 · (470) 800-3732 ·
+            <a href="mailto:asishkarthikeya45@gmail.com">asishkarthikeya45@gmail.com</a> ·
+            <a href="data/Asish_Gogineni_Resume.pdf" target="_blank">Download Resume</a> 
+          </div>   
+          <p class="lead mb-5"> I'm a Computer Science Graduate Student and Research Assistant at Georgia State University, with 2 years of research experience. My passion lies in bridging the gap between cutting-edge Machine Learning research and real-world enterprise solutions. Published innovative research journals and presented findings at top-tier conferences & workshops, pioneering Natural Language Processing, multi-modal fusion techniques, and transformer-based vision-language models for applications in medical image classification and diagnostic report generation, demonstrating advancements of AI in Medicine.</p>
+          <!-- <p class="lead mb-5"> Published innovative research in 14 high-impact journals and presented findings at 3 top-tier conferences, pioneering novel attention networks, multi-modal fusion techniques, and transformer-based vision-language models for applications in medical image classification and diagnostic report generation, demonstrating advancements of AI in Medicine.</p> -->
+          <div class="social-icons">
+            <a class="social-icon" href="https://www.linkedin.com/in/asish-karthikeya-gogineni-0bb301239/" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a class="social-icon"  href="https://github.com/Asishkarthikeya" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            <a class="social-icon"  href="https://scholar.google.com/citations?user=1LDy9ooAAAAJ&hl=en" target="_blank">
+              <i class="fas fa-graduation-cap"></i>
+            </a>
+            
+
+            <a class="social-icon"  href="https://www.kaggle.com/work" target="_blank">
+              <i class="fab fa-kaggle"></i>
+            </a>
+  
+          </div>
+        </div>
+      </section>
+
+    <hr class="m-0">
+
+    <!-- Education -->
+    <section class="resume-section" id="education">
+      <div class="resume-section-content">
+        <h2 class="mb-5">Education &#127891</h2>
+
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <h3 class="mb-0"><a href="https://csds.gsu.edu/graduate/" target="_blank">Georgia State University</a> Atlanta, GA, USA</h3>
+            <div class="subheading mb-3"><b>Master of Science</b> in Computer Science</div>
+            <div><b>GPA:</b> 3.77 / 4 <br/>
+		        <b>Coursework: </b>Advanced Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Digital Image Processing, Computational Intelligence, Fundamentals of Data Science</div>
+            <b>Research: </b>Integrating multi-modal data - such as medical images, clinical text, and genetics - through scalable attention networks and vision-language models has the potential to significantly enhance diagnostic accuracy and decision-making in schizophrenia diagnosis and medical report generation. By advancing deep learning techniques for multi-modal learning and focusing on explainable AI systems, this research aims to create efficient, robust, and responsible AI solutions that improve diagnostic precision and automate medical report generation, all while ensuring deployment in resource-constrained environments.
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">August 2024 - May 2026</span></div>
+        </div>
+        
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <h3 class="mb-0"><a href="https://srmap.edu.in/academics/school-engineering-applied-sciences/b-tech/" target="_blank">SRM University</a> Andhra Pradesh, India</h3>
+            <div class="subheading mb-3"><b>Bachelors of Technology </b> in Computer Science & Engineering (Research Gold Medalist) &#127941 &#127942</div>
+            <div><b>CGPA</b> 9.06 / 10 <br/>
+            <b>Coursework: </b>Data Structures, Design & Analysis of Algorithms, Probability & Statistics, Object Oriented Programming, Operating Systems, Database Management System, Data Mining, Computer Graphics, Artificial Intelligence, Pattern Recognition, Optimization Techniques, Computer Networks, Internet of Things</div>
+          </div>
+          <div class="flex-shrink-0"><span class="text-primary">June 2020 - May 2024</span></div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <!-- Experience -->
+    <section class="resume-section" id="experience">
+      <div class="resume-section-content">
+        <h2 class="mb-5">Experience</h2>
+        
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Graduate Research Assistant</h3>
+            <div class="subheading mb-3"><a href="https://www.gsu.edu" target="_blank">Georgia State University</a> Atlanta, GA, USA</div>
+            <ul>
+              <li><i class="fa-li fa fa-check"></i>Designed, fine-tuned, and optimized machine learning models (SVM, Random Forest, LSTM) for customer churn prediction, achieving an 8% increase in accuracy.</li>
+              <li><i class="fa-li fa fa-check"></i>Applied advanced techniques, including transfer learning and hyperparameter tuning, to enhance model performance and efficiency in fraud detection, boosting accuracy by 19%.</li>
+              <li><i class="fa-li fa fa-check"></i>Integrated LLMs for natural language processing (NLP) applications, improving data insights in customer feedback analysis and deploying fine-tuned models in real-world environments.</li>
+            </ul>
+          </div>
+          <div class="flex-shrink-0"><span class="text-primary">August 2024 - Present</span></div>
+        </div>
+        
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Data Science Intern</h3>
+            <div class="subheading mb-3"><a href="https://www.deakin.edu.au" target="_blank">Deakin University</a>[Remote] Victoria, AUS</div>
+            <ul>
+              <li><i class="fa-li fa fa-check"></i>Implemented YOLOV5 for real-time image detection with Accuracy of 88% using Azure Databricks, enhancing data processing.</li>
+              <li><i class="fa-li fa fa-check"></i>Utilized Azure ML for model training and deployment, ensuring seamless integration with data pipelines</li>
+              <li><i class="fa-li fa fa-check"></i>Developed and deployed SVM models in production to classify customer email threats using a range of Natural Language
+                Processing (NLP) techniques, reducing false positives by 15%.</li>
+            </ul>
+          </div>
+          <div class="flex-shrink-0"><span class="text-primary">August 2023 - Present</span></div>
+        </div>
+              
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Reasearh Intern (ML & NLP)</h3>
+            <div class="subheading mb-3"><a href="https://srmap.edu.in/academics/school-engineering-applied-sciences/b-tech/" target="_blank">SRM University</a>Amaravati, AP, India</div>
+            <ul>
+              <li><i class="fa-li fa fa-check"></i>Conducted sentiment analysis using LSTM, CNN, and Transformers, deployed models with Azure ML and DevOps.</li>
+              <li><i class="fa-li fa fa-check"></i>Conducted LLM-based sentiment analysis using transformers, fine-tuning models like BERT and GPT for nuanced text classification.</li>
+              <li><i class="fa-li fa fa-check"></i>Designed MLOps pipelines, enhancing model reliability and deployment workflows.</li>
+              <li><i class="fa-li fa fa-check"></i>Created robust data models in PostgreSQL and MongoDB, ensuring data integrity for AI-driven analysis applications.</li>
+            </ul>
+          </div>
+          <div class="flex-shrink-0"><span class="text-primary">September 2022 - August 2023</span></div>
+        </div>
+              
+        
+
+    </section>
+
+    <hr class="m-0">
+
+    <!-- Skills-->
+    <section class="resume-section" id="skills">
+      <div class="resume-section-content">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3">Programming Languages</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item"><i class="devicon-python-plain-wordmark"></i></li>
+          <li class="list-inline-item"><i class="devicon-java-plain-wordmark"></i></li>
+          <li class="list-inline-item"><i class="devicon-c-plain"></i></li>
+        </ul>
+        <ul class="fa-ul mb-0">
+          <li><i class="fa-li fa fa-check"></i>Python, Java, C Programming</li>
+          <br/>
+        </ul>
+
+        <div class="subheading mb-3">AI & Machine Learning</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item"><i class="devicon-pytorch-plain-wordmark"></i></li>
+          <li class="list-inline-item"><i class="devicon-tensorflow-original-wordmark"></i></li>
+          <li class="list-inline-item"><i class="devicon-keras-plain-wordmark"></i></li>
+          <li class="list-inline-item"><i class="devicon-scikitlearn-plain"></i></li>
+          <li class="list-inline-item"><i class="devicon-opencv-plain-wordmark"></i></li>
+          <li class="list-inline-item"><i class="devicon-numpy-plain-wordmark"></i></li>
+          <li class="list-inline-item"><i class="devicon-pandas-plain-wordmark"></i></li>
+          <li class="list-inline-item"><i class="devicon-matplotlib-plain-wordmark"></i></li>
+        </ul>
+        <ul class="fa-ul mb-0">
+          <li><i class="fa-li fa fa-check"></i>PyTorch, TensorFlow, Keras, Scikit-learn, OpenCV, NLTK, SpaCy, NumPy, Pandas, Matplotlib</li>
+          <li><i class="fa-li fa fa-check"></i>Deep Learning (Neural Networks, Transformers, LLMs - Huggingface), Computer Vision, Natural Language Processing (NLP)</li>
+          <br/>
+        </ul>
+
+        <div class="subheading mb-3">Web Technologies</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item"><i class="devicon-html5-plain-wordmark"></i></li>
+          <li class="list-inline-item"><i class="devicon-css3-plain-wordmark"></i></li>
+          <li class="list-inline-item"><i class="devicon-javascript-plain"></i></li>
+          <li class="list-inline-item"><i class="devicon-spring-plain-wordmark"></i></li>
+          <li class="list-inline-item"><i class="devicon-flask-original-wordmark"></i></li>
+          <li class="list-inline-item"><i class="devicon-mysql-plain-wordmark"></i></li>
+          <li class="list-inline-item"><i class="fas fa-database"></i></li>
+          <li class="list-inline-item"><i class="devicon-git-plain-wordmark"></i></li>
+          <li class="list-inline-item"><i class="devicon-bitbucket-original-wordmark"></i></li>
+          <li class="list-inline-item"><i class="devicon-jira-plain-wordmark"></i></li>
+        </ul>
+        <ul class="fa-ul mb-0">
+          <li><i class="fa-li fa fa-check"></i>HTML, CSS, Java Script, Spring Boot, Microservices, REST APIs, MySQL, Oracle Database, Git, Bitbucket, Agile, Jira, SDLC</li>
+          <br/>
+        </ul>
+
+        <div class="subheading mb-3">Cloud & Deployment</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item"><i class="devicon-azuredevops-plain"></i></li>
+          <li class="list-inline-item"><i class="devicon-amazonwebservices-plain-wordmark"></i></li>
+          <li class="list-inline-item"><i class="devicon-docker-plain-wordmark"></i></li>
+          <li class="list-inline-item"><i class="devicon-jenkins-plain"></i></li>
+          <li class="list-inline-item"><i class="devicon-kubernetes-plain-wordmark"></i></li>
+        </ul>
+        <ul class="fa-ul mb-0">
+          <li><i class="fa-li fa fa-check"></i>Azure DevOps, AWS Services, Azure ML Studio, MLFlow, CI/CD, Docker, Jenkins, Kubernetes</li>
+          <br/>
+        </ul>
+
+        <div class="subheading mb-3">Developer Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item"><i class="devicon-vscode-plain-wordmark"></i></li>
+          <li class="list-inline-item"><i class="devicon-anaconda-original-wordmark"></i></li>
+          <li class="list-inline-item"><i class="devicon-jupyter-plain-wordmark"></i></li>
+          <li class="list-inline-item"><i class="devicon-eclipse-plain-wordmark"></i></li>
+        </ul>
+        <ul class="fa-ul mb-0">
+          <li><i class="fa-li fa fa-check"></i>VS Code, Anaconda, Jupyter Notebook, Eclipse, MS Office, Tableau</li>
+          <br/>
+        </ul>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <!-- Projects -->
+    <section class="resume-section" id="projects">
+      <div class="resume-section-content">
+        <h2 class="mb-5">Projects</h2>
+	
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Colon Cancer Diagnosis</h3>
+            <div class="subheading mb-3">Python, Flask, TensorFlow, Computer Vision</div>
+            Conceptualized and built a cutting-edge AI-powered diagnostic tool tailored for identifying colon cancer and also diseases like heart, Brain tumor, and diabetic retinopathy across various imaging modalities. Our system achieves an impressive 97% accuracy, automating the diagnosis process and generating detailed reports with clinical recommendations. <a href="https://github.com/Asishkarthikeya/Colon-Cancer" target="_blank">Know more</a>
+          </div>
+          <div class="flex-shrink-0"><span class="text-primary">August 2023 - December 2023</span></div>
+        </div>
+              
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Hybrid Deep Learning Framework for Sentimental Analysis</h3>
+            <div class="subheading mb-3">Python,NLP,Feature Extraction</div>
+            Our study examines how deep learning models like LSTM, GRU, CNN, and hybrid models (LSTM+CNN, LSTM+GRU, GRU+CNN) capture complex sentiment patterns in text data. Additionally, we study integrating BOW and TF-IDF as complementing features to improve model predictive power. <a href="https://github.com/Asishkarthikeya/Sentimental_Analysis_Deeplearning" target="_blank">Know more</a>
+          </div>
+          <div class="flex-shrink-0"><span class="text-primary">July 2022 - September 2022</span></div>
+        </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <!-- Research-->
+    <section class="resume-section" id="research">
+      <div class="resume-section-content">
+          <h2 class="mb-5">Research & Development</h2>
+          <div class="social-icons mb-3">
+          <a class="social-icon"  href="https://scholar.google.com/citations?user=1LDy9ooAAAAJ&hl=en" target="_blank">
+            <i class="ai ai-google-scholar-square ai-3x"></i>
+          </a>
+          <a class="social-icon" href="https://www.researchgate.net/profile/Asish-Karthikeya-Gogineni" target="_blank">
+            <i class="ai ai-researchgate-square ai-3x"></i>
+          </a>
+        </div>
+
+        <p class="lead mb-5">
+          My research lies at the intersection of machine learning, computer vision, and natural language processing (NLP), with a focus on developing creative, efficient, and responsible AI solutions. I specialize in advancing deep learning methods for multi-modal learning by integrating data from various modalities - such as images, text, and sensor inputs - through scalable attention networks and vision-language models designed for edge deployment. Focused on medical applications, my work aims to develop explainable AI systems that enhance diagnostic accuracy and support decision-making in complex real-world scenarios.
+        </p>
+
+        <!-- Publications -->
+
+        <!-- <div class="subheading mb-3" id="publications"><i class="fas fa-newspaper"></i> Journal Papers & Conference Proceedings</div>
+        <ul class="fa-ul mb-0">
+          <li point-component="publications"><i class="fa-li">&#128196</i><a href="{{url}}" target="_blank">{{title}}</a><br/> {{medium}}, {{year}}</li>
+        </ul> -->
+
+        <div class="subheading mb-3" id="conferences"><i class="fas fa-edit"></i> Conference Proceedings</div>
+<ul class="fa-ul mb-0">
+  <li>
+    <span class="fa-li"><i class="fas fa-file-alt"></i></span>
+    <strong>[1]</strong> 
+    <a href="https://ieeexplore.ieee.org/document/10307596" target="_blank">
+      Performance Evaluation of Machine Learning and Neural Network Algorithms for Wine Quality Prediction
+    </a>
+    <br/>
+    <span>Authors: <strong>Gogineni, Asish Karthikeya</strong>; Thadi, Venkata Satyamurti; Kakarala, Harika; Enduri, Murali Krishna; Anamalamudi, Satish</span>
+    <br/>
+    <span>Medium: 2023 14th International Conference on Computing Communication and Networking Technologies (ICCCNT), 2023</span>
+  </li>
+</ul>
+
+
+<div class="subheading mb-3" id="journals"><i class="fas fa-file-alt"></i> Journal Papers</div>
+<ul class="fa-ul mb-0">
+  <li>
+    <span class="fa-li"><i class="fas fa-file-alt"></i></span>
+    <strong>[1]</strong> 
+    <a href="https://ui.adsabs.harvard.edu/abs/2023MURJE..42..207K/abstract" target="_blank">
+      Comparative study on sentimental analysis using machine learning techniques
+    </a>
+    <br/>
+    <span>Authors: <strong>Gogineni, Asish Karthikeya</strong>; Kallam, Yogeshvar Reddy; Panchumarthi, Lovely Yeswanth; Suda, Kiran Sai Reddy; Enduri, Murali Krishna; Sangi, Abdur Rashid; Anamalamudi, Satish</span>
+    <br/>
+    <span>Medium: Mehran University Research Journal of Engineering and Technology, 2023</span>
+  </li>
+  <li>
+    <span class="fa-li"><i class="fas fa-file-alt"></i></span>
+    <strong>[2]</strong> 
+    <a href="https://thesai.org/Publications/ViewPaper?Volume=14&Issue=12&Code=IJACSA&SerialNo=105" target="_blank">
+      A Hybrid Deep Learning Framework for Efficient Sentiment Analysis
+    </a>
+    <br/>
+    <span>Authors: <strong>Gogineni, Asish Karthikeya</strong>; Suda, Kiran Sai Reddy; Kakarala Harika; Enduri, Murali Krishna; Koduru, Hajarathaiah</span>
+    <br/>
+    <span>Medium: International Journal of Advanced Computer Science and Applications (IJACSA), 2023</span>
+  </li>
+</ul>
+
+
+        <div class="subheading mb-3" id="under-review"><i class="fas fa-book-reader"></i> Under Review</div>
+        <ul class="fa-ul mb-0">
+        <li><i class="fa-li">&#128196</i><a href="https://www.editorialmanager.com/aiim/default2.aspx" target="_blank">Enhancing Colon Cancer Diagnosis Through Transfer Learning on Histopathology Image Analysis</a><br/> <strong>Gogineni, Asish Karthikeya</strong>; Suda, Kiran Sai Reddy; Thadi, Venkata Satyamurti; Kakarala, Harika; Enduri Murali Krishna; Baha, Ihnaini; Sangi, Abdur Rashid<br/>Artificial Intelligence In Medicine, 2025</li>
+        <li><i class="fa-li">&#128196</i><a href="https://www.jair.org/index.php/jair/index" target="_blank">Focusing on the integration of reinforcement learning (RL) with other AI technologies in healthcare</a><span class='new-badge'><img src='img/new.png' alt='badge-icon' class='badge-icon' /></span><br/>Lovely, Yeswanth; <strong>Gogineni, Asishkarthikeya</strong><br/>Proceedings of the 22nd IEEE International Symposium on Biomedical Imaging (ISBI), 2025</li>
+        <li><i class="fa-li">&#128196</i><a href="https://conferences.miccai.org/2025/en/default.asp" target="_blank">Comparative Study of Melanoma Disease Classification using Deep Learning</a><span class='new-badge'><img src='img/new.png' alt='badge-icon' class='badge-icon' /></span><br/><strong>Gogineni, Asish Karthikeya</strong>; Lovely, Yeswanth<br/>22nd OITS International Conference on Information Technology (OCIT 2024), 2025</li>
+        </ul>
+
+
+    </section>
+
+    
+
+    <!-- Certications -->
+    <section class="resume-section" id="certifications">
+      <div class="resume-section-content">
+        <h2 class="mb-5">Certifications</h2>
+        <ul class="fa-ul mb-0">
+          <li>
+            <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+            <a href="https://www.coursera.org/account/accomplishments/verify/FQV6S33DVM3T?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" target="_blank"><b>Machine Learning With Big Data</b></a> - Course offered by <b>UC San Diego</b>.
+          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+            <a href="https://www.coursera.org/account/accomplishments/verify/93D2FRDQ8P3R?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" target="_blank"><b>Big Data Integration and Processing</b></a> - Course offered by <b>UC San Diego</b>.
+          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+            <a href="https://www.coursera.org/account/accomplishments/verify/BPN2P8RLD8BA?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" target="_blank"><b>Big Data Modeling and Management Systems</b></a> - Course offered by <b>UC San Diego</b>.
+          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+            <a href="https://drive.google.com/file/d/1AaoB6jOXvymZ-8lcEEyRfBahWxv16O9H/view?usp=sharing" target="_blank"><b>AI & Automation in Excel</b></a> - Course offered by <b>Skill Nation</b>.
+          </li>
+          
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <!-- Interests-->
+    <section class="resume-section" id="interests">
+      <div class="resume-section-content">
+        <h2 class="mb-5">Interests</h2>
+          <p>Apart from my work and research, I have a diverse range of interests that keep me engaged and inspired. I am passionate about music, with a particular love for classical genre. I find great pleasure in watching television shows and movies, immersing myself in different narratives and perspectives.</p>
+          <p>I am also an aspiring chef, constantly experimenting with new recipes and culinary techniques. My curiosity and love for learning extend to the digital world, where I spend a significant amount of my free time exploring the latest advancements in Artificial Intelligence and Machine Learning.</p>
+          <p>Additionally, I enjoy staying active by playing badminton and working out at the gym, which helps me maintain a healthy lifestyle. These activities not only provide a physical outlet but also help me maintain a balanced and well-rounded lifestyle.</p>
+          
+          <ul class="list-inline dev-icons">
+            <li class="list-inline-item">
+              <i class="fas fa-music"></i> <!-- Music (general music icon) -->
+            </li>
+            <li class="list-inline-item">
+              <i class="fas fa-tv"></i> <!-- Watching television shows -->
+            </li>
+            <li class="list-inline-item">
+              <i class="fas fa-film"></i> <!-- Watching movies -->
+            </li>
+            <li class="list-inline-item">
+              <i class="fas fa-utensils"></i> <!-- Aspiring chef -->
+            </li>
+            <li class="list-inline-item">
+              <i class="fas fa-laptop-code"></i> <!-- Exploring AI and ML -->
+            </li>
+            <li class="list-inline-item">
+              <i class="fas fa-dumbbell"></i> <!-- Working out in gym -->
+            </li>
+            <li class="list-inline-item">
+              <i class="fas fa-football-ball"></i> <!-- Playing -->
+            </li>
+          </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <!-- Awards -->
+    <section class="resume-section" id="awards">
+      <div class="resume-section-content">
+        <h2 class="mb-5">Awards &#127942</h2>
+        <ul class="fa-ul mb-0">
+          <li>
+            <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+            Recipient of a <b>100% scholarship</b> for master's studies at Georgia State University, recognizing dedication to academic excellence and commitment to Reserach.
+          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+            Secured <b>First runner up</b> in the Deep Learning based hackathon <i>(hosted by IIIT Sricity)</i>.
+          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-medal text-warning"></i></span>
+            Awarded the <b>GOLD Medal</b> during the 5th Research Day at <i>SRMAP</i>.
+          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+            Secured <b>Special Mention Award</b> on 7th Research Day at <i>SRMAP</i>.
+          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+            Honored with <b>Special Mention Award</b> on Research Day 8th edition <i>SRMAP</i>.
+          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+            Bagged multiple prizes in <b>Technical Project Expo & Paper Presentation</b> events at National-level Inter University Competitions throughout four years of my Bachelors.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+        <script>
+          // point.attachJSON("https://shaiknagurshareef.github.io/data/publications.json", "publications");
+          point.attachJSON("https://shaiknagurshareef.github.io/data/conferences.json", "conferences");
+          point.attachJSON("https://shaiknagurshareef.github.io/data/journals.json", "journals");
+          point.attachJSON("https://shaiknagurshareef.github.io/data/under-review.json", "review");
+        </script>
+    </body>
+
+</html>
